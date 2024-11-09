@@ -1,0 +1,17 @@
+body{
+    background-color:royalblue;
+}
+
+#titulo{
+    color: orange;
+    text-shadow: 1px 1px black;
+}
+
+#personaje{
+    background-color: orange;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#options:hover{
+    background-color: blue;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personajes de dragon ball</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form>
+        <h4 id="titulo">Dragon Ball Z</h4>
+        <select name="" id="personaje" onchange="cargarInformacion()">
+            <option value="" selected disabled>Seleccionar Personaje...</option>
+        </select>
+        <hr>
+        <p>
+            Nombre: <input type="text" id="nombre" readonly> 
+            Genero: <input type="text" id="genero" readonly>  
+            Raza: <input type="text" id="raza" readonly>
+            Ki: <input type="text" id="ki" readonly> 
+            Max-Ki: <input type="text" id="maxKi" readonly>
+            <br>
+            Pertenece a: <input type="text" id="afiliacion" readonly>
+        </p>
+    </form>
+</body>
+<script src="js/javascript.js"></script>
+</html>
